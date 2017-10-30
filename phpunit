@@ -1,0 +1,5 @@
+#!/usr/bin/env php
+<?php
+define('PHPUNIT_COMPOSER_INSTALL', __DIR__ . '/vendor/autoload.php');
+require PHPUNIT_COMPOSER_INSTALL;
+PHPUnit\TextUI\Command::main();

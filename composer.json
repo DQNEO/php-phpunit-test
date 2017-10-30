@@ -1,27 +1,24 @@
 {
-    "name": "dqneo/skeleton",
-    "description": "a skeleton package which does nothing at all",
+    "name": "dqneo/phpunit-test",
+    "description": "a test driven study for PHPUnit",
     "type": "library",
     "require": {
         "php": "^7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.4",
+        "phpunit/phpunit": "^6",
         "friendsofphp/php-cs-fixer": "^2.7"
     },
     "autoload": {
         "psr-4" : {
-            "DQNEO\\Skeleton\\": "src/"
+            "DQNEO\\PHPUnitTest\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4" : {
-            "DQNEO\\Skeleton\\": "tests/"
+            "DQNEO\\PHPUnitTest\\": "tests/"
         }
     },
-    "bin" : [
-        "skeleton"
-    ],
     "authors": [
         {
             "name": "DQNEO",
