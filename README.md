@@ -1,15 +1,9 @@
-# dqneo/skeleton
+# PHPUnit test
 
-[![Build Status](https://travis-ci.org/DQNEO/php-skeleton.svg?branch=master)](https://travis-ci.org/DQNEO/php-skeleton)
+[![Build Status](https://travis-ci.org/DQNEO/php-phpunit-test.svg?branch=master)](https://travis-ci.org/DQNEO/php-phpunit-test)
 
-
-a package skeleton for modern PHP
 
 ## What is this?
 
-This package is meant to be a good example of a modern PHP package.
+Sample codes for PHPUnit
 
-## Influenced by
-
-* https://github.com/guzzle/guzzle
-* https://github.com/composer/composer
